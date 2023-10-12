@@ -3,6 +3,7 @@ import NavBar from "../../component/NavBar";
 import Header from "./components/Header";
 import RestaurantNavBar from "./components/RestaurantNavBar";
 import Title from "./components/Title";
+import Rating from "./components/Rating";
 
 export default function RestaurantDetails() {
   return (
@@ -14,19 +15,9 @@ export default function RestaurantDetails() {
         <div className="flex m-auto w-2/3 justify-between items-start 0 -mt-11">
           <div className="bg-white w-[70%] rounded p-3 shadow">
             <RestaurantNavBar />
-            {/* TITLE */}
             <Title />
-            {/* TITLE */} {/* RATING */}
-            <div className="flex items-end">
-              <div className="ratings mt-2 flex items-center">
-                <p>*****</p>
-                <p className="text-reg ml-3">4.9</p>
-              </div>
-              <div>
-                <p className="text-reg ml-4 text-black">600 Reviews</p>
-              </div>
-            </div>
-            {/* RATING */} {/* DESCRIPTION */}
+            <Rating />
+            {/* DESCRIPTION */}
             <div className="mt-4">
               <p className="text-lg font-light">
                 The classics you love prepared with a perfect twist, all served
