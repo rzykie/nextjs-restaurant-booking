@@ -22,9 +22,7 @@ export default function RestaurantCard() {
           </div>
         </div>
         <div className="text-red-600">
-          <Link href="/restaurants/milestones-stones">
-            View more information
-          </Link>
+          <Link href="/restaurant/milestones-grill">View more information</Link>
         </div>
       </div>
     </div>
