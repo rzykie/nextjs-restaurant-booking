@@ -1,3 +1,5 @@
+"use client";
+
 import SearchBar from "../../component/SearchBar";
 
 function Header() {
